@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>对babel的认知 | chengsl</title>
+    <meta name="description" content="Vuepress blog demo">
+    
+    
+    <link rel="preload" href="/chengsl/assets/css/0.styles.4e51b81b.css" as="style"><link rel="preload" href="/chengsl/assets/js/app.6041e12f.js" as="script"><link rel="preload" href="/chengsl/assets/js/2.de49024b.js" as="script"><link rel="preload" href="/chengsl/assets/js/11.c75244ec.js" as="script"><link rel="prefetch" href="/chengsl/assets/js/10.9403a5ee.js"><link rel="prefetch" href="/chengsl/assets/js/12.7994ec7e.js"><link rel="prefetch" href="/chengsl/assets/js/13.2e113c17.js"><link rel="prefetch" href="/chengsl/assets/js/14.6b2aa262.js"><link rel="prefetch" href="/chengsl/assets/js/15.b18de8b9.js"><link rel="prefetch" href="/chengsl/assets/js/16.4b9b56f8.js"><link rel="prefetch" href="/chengsl/assets/js/17.34e18dee.js"><link rel="prefetch" href="/chengsl/assets/js/18.9d8a57a3.js"><link rel="prefetch" href="/chengsl/assets/js/19.d991cf90.js"><link rel="prefetch" href="/chengsl/assets/js/20.ea7287a3.js"><link rel="prefetch" href="/chengsl/assets/js/3.ae623370.js"><link rel="prefetch" href="/chengsl/assets/js/4.d4f5097b.js"><link rel="prefetch" href="/chengsl/assets/js/5.fcd7f978.js"><link rel="prefetch" href="/chengsl/assets/js/6.6bbd8d8a.js"><link rel="prefetch" href="/chengsl/assets/js/7.2225aee1.js"><link rel="prefetch" href="/chengsl/assets/js/8.0410ebb1.js"><link rel="prefetch" href="/chengsl/assets/js/9.d128cc54.js">
+    <link rel="stylesheet" href="/chengsl/assets/css/0.styles.4e51b81b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/chengsl/" class="home-link router-link-active"><!----> <span class="site-name">chengsl</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/chengsl/" class="nav-link">主页</a></div><div class="nav-item"><a href="/chengsl/blog/FirstBlog.html" class="nav-link">知识模块</a></div> <a href="https://github.com/chengshengliang/chengsl" target="_blank" rel="noopener noreferrer" class="repo-link">
+    My GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/chengsl/" class="nav-link">主页</a></div><div class="nav-item"><a href="/chengsl/blog/FirstBlog.html" class="nav-link">知识模块</a></div> <a href="https://github.com/chengshengliang/chengsl" target="_blank" rel="noopener noreferrer" class="repo-link">
+    My GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/chengsl/" class="sidebar-link">首页</a></li><li><a href="/chengsl/blog/FirstBlog.html" class="sidebar-link">vuepress使用说明</a></li><li><a href="/chengsl/blog/proto.html" class="sidebar-link">原型和原型链</a></li><li><a href="/chengsl/blog/extend.html" class="sidebar-link">js继承的几种方式</a></li><li><a href="/chengsl/blog/new.html" class="sidebar-link">js中new之后的过程</a></li><li><a href="/chengsl/blog/this.html" class="sidebar-link">this指向几种方式</a></li><li><a href="/chengsl/blog/closure.html" class="sidebar-link">闭包理解</a></li><li><a href="/chengsl/blog/domEvent.html" class="sidebar-link">js的事件机制</a></li><li><a href="/chengsl/blog/arr.html" class="sidebar-link">数组 map reduce filter foreach 方法</a></li><li><a href="/chengsl/blog/es6.html" class="sidebar-link">es6的使用</a></li><li><a href="/chengsl/" class="sidebar-link">几种缓存机制，js缓存和浏览器缓存</a></li><li><a href="/chengsl/" class="sidebar-link">http1.0和http2.0区别，浏览器执行网页过程</a></li><li><a href="/chengsl/blog/module.html" class="sidebar-link">js模块化</a></li><li><a href="/chengsl/blog/async.html" class="sidebar-link">异步发展史</a></li><li><a href="/chengsl/blog/webpackBlog.html" class="sidebar-link">webpack相关</a></li><li><a href="/chengsl/blog/babel.html" class="active sidebar-link">babel相关</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/chengsl/blog/babel.html#对babel的认知" class="sidebar-link">对babel的认知</a></li><li class="sidebar-sub-header"><a href="/chengsl/blog/babel.html#对babel的编译原理（三个过程）" class="sidebar-link">对babel的编译原理（三个过程）</a></li></ul></li><li><a href="/chengsl/" class="sidebar-link">vue的相关理解和原理</a></li><li><a href="/chengsl/" class="sidebar-link">react的相关理解和原理</a></li><li><a href="/chengsl/" class="sidebar-link">ts和fluter的相关了解</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="对babel的认知"><a href="#对babel的认知" class="header-anchor">#</a> 对babel的认知</h2> <p>babel是js的编译器，可以将es6+的代码转换为向后兼容的js语法，从而使低版本和当前浏览器都可以识别他。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1</span>：可以对js代码进行转换
+<span class="token number">2</span>：可以通过@babel<span class="token operator">/</span>polyfill模块，用polyfill方式为当前环境补充没有的特性
+<span class="token number">3</span>：还可以进行源码转换
+
+</code></pre></div><h2 id="对babel的编译原理（三个过程）"><a href="#对babel的编译原理（三个过程）" class="header-anchor">#</a> 对babel的编译原理（三个过程）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1</span>：解析：将代码字符串解析成抽象语法树（<span class="token constant">AST</span>）
+    大致分为两个过程：<span class="token number">1</span>：进行分词就是将语法字符串进行循环遍历拆成最小单元数组<span class="token punctuation">.</span>
+                    <span class="token number">2</span>：语法分析，建立每个最小单元之间的语法关系<span class="token punctuation">.</span>
+
+
+<span class="token number">2</span>：转换：将抽象语法树进行转换操作
+这个阶段就会使用到插件了，不使用的话原本样子输出源码<span class="token punctuation">.</span>
+
+了解plugin和preset区别
+    <span class="token number">1</span>：plugin则是插件意思，转换过程中使用到了引入即可实现转换
+    <span class="token number">2</span>：preset是babel官方提供的插件集，每年更新一次只更新本年批准的内容，（babel<span class="token operator">-</span>preset<span class="token operator">-</span>env是最全的插件集合）
+同时存在执行顺序：
+Plugin 会运行在 Preset 之前。
+Plugin 会从第一个开始顺序执行。
+Preset <span class="token function">的顺序则刚好相反</span><span class="token punctuation">(</span>从最后一个逆序执行<span class="token punctuation">)</span>。
+
+
+<span class="token number">3</span>：生成：将转换后的代码再生成代码字符串（通过babel<span class="token operator">-</span>genenrotor将ast树转换为es5浏览器可以识别的代码）
+</code></pre></div><p><a href="https://www.zoo.team/article/babel" target="_blank" rel="noopener noreferrer">参考<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/chengsl/blog/webpackBlog.html" class="prev">webpack相关</a></span> <span class="next"><a href="/chengsl/" class="router-link-active">vue的相关理解和原理</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/chengsl/assets/js/app.6041e12f.js" defer></script><script src="/chengsl/assets/js/2.de49024b.js" defer></script><script src="/chengsl/assets/js/11.c75244ec.js" defer></script>
+  </body>
+</html>
